@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="BusPassForm.css">  
+</head>
+<body>
+    <h3>TELANGANA STATE ROAD TRANSPORT CORPORATION</h3>
+    <h1>STUDENT BUS PASS APPLICATION ABOVE SSC</h1>
+    <p>Note: LIGSRTC officers has reserve right to cancel Registration, ID and Ticket at any point of time 2.Students are requested to Upload Passport size photograph only. Otherwise, IGSRTC officers reserve right to cancel your registration without notice.</p>
+    <p>Please Enter Details</p>
+    
+    <div>
+        1.Student 10th Details
+    </div>
+        <forM>
+            <label for="ssc">SSC Board Type</label>
+            <select name="ssc" id="ssc">
+            <option value="ssc" >SSC</option>
+            <option value="CBSE" >CBSE</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="exam">1.2 SSC Regular/Supplementary</label>
+            <select name="exam" id="exam">
+                <option value="regular">Regular</option>
+                <option value="supply">Supplementary</option>
+            </select>
+            <br>
+
+            <label for="year">1.3 SSC Year of pass</label>
+            <input type="number" id="year" name="year">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="hall">1.4 SSC hall ticket no.</label>
+            <input type="text" id="hall" name="hall">
+            <br>
+            <label for="date">1.5 Date of Birth (dd/mm/yyyy)</label>
+            <input type="date" id="date" name="date">
+
+        </forM>
+
+    <div>
+            <h2>2.Student Details</h2>
+        <form>
+            
+            <label for="name">2.1 Name</label>
+            <input type="text" id="name" name="name">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="father">2.2 Father's/Guardian's Name</label>
+            <input type="text" id="father" name="father" >
+            <br>
+            <label for="date">2.3 Date of birth</label>
+            <input type="date" name="date" id="date">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <labeL for="gender">2.4 Gender</labeL>
+            <input type="radio" id="female" name="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">male</label>
+            <br>
+            <labeL for="aadhar">2.5 Aadhaar No:</labeL>
+            <input type="text" id="aadhar" name="aadhar">
+            <br>
+            <label for="whatsapp">2.6 WhatsApp No</label>
+            <input type="text" id="whatsapp" name="whatsapp">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="email">2.7 Email ID</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="employee">2.7 Is Employee Children</label>
+            <input type="radio" id="yes" name="employee" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="employee" value="no">
+            <label for="no">No</label>
+            <br>
+            <label for="photo">2.9 Photo</label>
+            <input type="file" id="photo" name="photo">
+
+
+        </form>
+    </div>
+                
+    <div>
+        <h2>3.Residential Address Details</h2>
+        <form>
+            
+            <label for="District">3.1 District</label>
+            <select id="District" name="District">
+                <option value="Adilabad">Hyderabad</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="Mandal">3.2 Mandal</label>
+            <select id="Mandal" name="Mandal">
+                <option value="Mandal1">Hyderabad</option>
+            </select>
+            <br>
+            <label for="village">3.3 Village</label>
+            <input type="text" id="village" name="village">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="address">3.4 Address</label>
+            <textarea id="address" name="address" rows="4" cols="50"></textarea>
+            <br>
+            <label for="pincode">3.5 Pincode</label>
+            <input type="text" id="pincode" name="pincode">
+
+        
+        </form>
+    </div>
+    
+    <div>
+        <h2>4.Institution Detalls</h2>
+        
+        <form>
+            <p>Hyderabad city pass applicants should select the institution address as HYDERABAD, though the institution is at Hyderabad surrounding areas. (Ibrahimpatnam, Patancheru, Ghatkesar, Hakimpet, Medchal, Shamshabad, Kandukar, Hayathnagar etc., and beyond
+            </p>
+            <label for="dis">4.1 District</label>
+            <select id="dis" name="dis">
+                <option value="hyderabad">Hyderabad</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="man">4.2 Mandal</label>
+            <select id="man" name="man        ">
+                <option value="hyderabad">Hyderabad</option>        
+            </select>
+            <br>
+            <label for="inst">4.3 Institution Name</label>
+            <select id="inst" name="inst">
+                <option >---Select---</option>
+                
+                <option value="institution1">Institution 1</option>
+                <option value="institution2">Institution 2</option>    
+            </select>   
+    
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="course">4.4 Course Name"</label>
+            <select id="course" name="course">
+                <option>---Select---</option>
+                <option value="course1">Course 1</option>
+                <option value="course2">Course 2</option>
+            <br>
+            <label for="admin">4.6 Admission No</label>
+            <input type="text" id="admin" name="admin">
+            <br>
+            <label for="add">4.7 Institution Address</label>
+            <textarea id="add" name="add" rows="4" cols="50"></textarea>
+
+
+        </form>
+    </div>
+
+
+    <div>
+        <h2>5.Mode of Payment</h2>
+        <form>
+            <labe for="payment">Payment Mode</labe>
+            <select id="payment" name="payment">
+                <option value="Select Payment Mode">Select Payment Mode</option>
+                <option value="Payment at Counter">Payment at Counter</option> 
+            </select>     
+            <br>
+            <label for="mode">Pass Delivery Mode</label> 
+            <select id="mode" name="mode">
+                <option value="Select Pass Delivery Mode">Select Pass Delivery Mode</option>
+                <option value="At Counter">At Counter</option> 
+        </form>
+    </div>
+
+
+
+    <div>
+        <h2>6.Route Details & Pass Collection</h2>
+        <form>
+            <label for="center">6.1At which center you want to collect ID/PASS</label>
+            <select id="center" name="center">
+                <option value="Hyderabad">Hyderabad</option>               
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="type">6.2 Pass Type Required</label>
+            <select id="type" name="type">
+                <option value="Monthly">Monthly</option>
+                <option value="Quarterly">Quarterly</option>      
+                <option value="Half Yearly">Half Yearly</option>              
+                <option value="Yearly">Yearly</option>
+            </select>
+
+        </form>
+    </div>
+    <div>
+        <h2>6.Route Details & Pass Collection</h2>
+        <form>
+            <label for="center">6.1At which center you want to collect ID/PASS</label>
+            <select id="center" name="center">
+                <option value="Hyderabad">Hyderabad</option>               
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="type">6.2 Pass Type Required</label>
+            <select id="type" name="type">
+                <option value="Monthly">Monthly</option>
+                <option value="Quarterly">Quarterly</option>      
+                <option value="Half Yearly">Half Yearly</option>              
+                <option value="Yearly">Yearly</option>
+            </select>
+
+        </form>
+    </div>
+    
+    
+    <button>Submit</button>
+</body>
+</html>

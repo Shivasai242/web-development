@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            margin-top: 100px;
+        }
+        div{
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            background-color: green;
+            border: 2px solid black;
+            margin: 10px;
+
+        }
+        div:nth-of-type(2n){
+            background-color: #f7db6a;
+        }
+        div:nth-of-type(3n){
+            background-color: #ebb02d;
+        }
+        /* Transform */
+        #two{
+            transform: scale(2);
+        }
+        
+        
+    </style>
+</head>
+<body>
+ <section>
+    <div id="one">1</div>
+    <div id="two">2</div>
+    <div id="three">3</div>
+    <div id="four">4</div>
+    <div id="five">5</div> 
+</section>
+    
+</body>
+</html>
