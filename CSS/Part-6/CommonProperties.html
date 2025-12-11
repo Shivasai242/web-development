@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 300px;
+            background-color: yellow;
+            display:grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(3,1fr);
+            /*row-gap: 10px;
+            column-gap: 10px;*/
+            grid-gap: 5px 5px;
+            /*justify-items: center;
+            align-items: center;*/
+            place-items: center;
+
+
+        }
+        .item{
+           width: 100px;
+            height: 50px;
+            background-color: greenyellow;
+            border: 2px solid black;
+            text-align: center;
+            
+        }
+        .one{
+           /* justify-self: self-end;
+            align-self: self-end;*/
+            place-self: end;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid Playground</h1>
+    <div class="container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+    
+    <span>This is a span</span>
+</body>
+</html>

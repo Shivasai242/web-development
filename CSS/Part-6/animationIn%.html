@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 300px;
+            background-color: pink;
+
+            animation-name:colanimate;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-delay: 0;
+            animation-iteration-count: 3;
+            animation-direction: normal;
+            /*animation:colanimation 2s ease-in  0s infinite normal;*/
+        }
+        @keyframes colanimate{
+            0%{
+                background-color: aqua;
+            }
+            50%{
+                background-color: blue;
+            }
+            100%{
+                background-color: brown;
+            }
+        }
+        
+       
+    
+    </style>
+</head>
+<body>
+    <h1>Animations</h1>
+    <div class="box">This is a box</div>
+    
+</body>
+</html>
