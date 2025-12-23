@@ -109,7 +109,7 @@
   }
   .sidebar_menu .social_media i:hover{
     opacity: 1;
-    transform:  scale(2);
+    transform:  scale(1);
   } 
   #check:checked ~ .sidebar_menu{
     left: 0;
